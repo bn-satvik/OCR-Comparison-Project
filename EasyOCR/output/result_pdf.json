@@ -1,0 +1,1397 @@
+[
+    {
+        "page": 1,
+        "results": [
+            {
+                "text": "31437",
+                "bounding_box": [
+                    89,
+                    111,
+                    159,
+                    127
+                ],
+                "confidence": 0.23
+            },
+            {
+                "text": "faT",
+                "bounding_box": [
+                    166,
+                    102,
+                    228,
+                    128
+                ],
+                "confidence": 0.59
+            },
+            {
+                "text": "HRT",
+                "bounding_box": [
+                    293,
+                    105,
+                    346,
+                    129
+                ],
+                "confidence": 0.12
+            },
+            {
+                "text": "TTEFR",
+                "bounding_box": [
+                    357,
+                    111,
+                    417,
+                    127
+                ],
+                "confidence": 0.12
+            },
+            {
+                "text": "INCOME TAX DEPARTMENT",
+                "bounding_box": [
+                    81,
+                    132,
+                    227,
+                    151
+                ],
+                "confidence": 0.56
+            },
+            {
+                "text": "GOVT: OF INDIA",
+                "bounding_box": [
+                    297,
+                    131,
+                    417,
+                    151
+                ],
+                "confidence": 0.72
+            },
+            {
+                "text": "D MANIKANDAN",
+                "bounding_box": [
+                    91,
+                    155,
+                    185,
+                    169
+                ],
+                "confidence": 0.68
+            },
+            {
+                "text": "DURAISANY",
+                "bounding_box": [
+                    91,
+                    185,
+                    163,
+                    199
+                ],
+                "confidence": 0.31
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    91,
+                    215,
+                    157,
+                    229
+                ],
+                "confidence": 0.7
+            },
+            {
+                "text": "humh",
+                "bounding_box": [
+                    178,
+                    230,
+                    214,
+                    238
+                ],
+                "confidence": 0.03
+            },
+            {
+                "text": "BNZPM2SOIF",
+                "bounding_box": [
+                    91,
+                    241,
+                    173,
+                    255
+                ],
+                "confidence": 0.41
+            },
+            {
+                "text": "mnkna",
+                "bounding_box": [
+                    119,
+                    265,
+                    207,
+                    285
+                ],
+                "confidence": 0.43
+            },
+            {
+                "text": "sane",
+                "bounding_box": [
+                    92,
+                    296,
+                    134,
+                    304
+                ],
+                "confidence": 0.13
+            },
+            {
+                "text": "PA BNZPMZSOIF",
+                "bounding_box": [
+                    71,
+                    353,
+                    149,
+                    365
+                ],
+                "confidence": 0.72
+            },
+            {
+                "text": "LEE",
+                "bounding_box": [
+                    93,
+                    495,
+                    115,
+                    511
+                ],
+                "confidence": 0.2
+            },
+            {
+                "text": "CapitalOne",
+                "bounding_box": [
+                    151,
+                    425,
+                    261,
+                    492
+                ],
+                "confidence": 0.84
+            },
+            {
+                "text": "5412",
+                "bounding_box": [
+                    101,
+                    458,
+                    151,
+                    494
+                ],
+                "confidence": 1.0
+            },
+            {
+                "text": "platinum",
+                "bounding_box": [
+                    173,
+                    466,
+                    225,
+                    495
+                ],
+                "confidence": 0.24
+            },
+            {
+                "text": "'7534",
+                "bounding_box": [
+                    143,
+                    473,
+                    194,
+                    512
+                ],
+                "confidence": 0.41
+            },
+            {
+                "text": "56 78",
+                "bounding_box": [
+                    184,
+                    492,
+                    235,
+                    528
+                ],
+                "confidence": 0.94
+            },
+            {
+                "text": "ciadholocr",
+                "bounding_box": [
+                    122,
+                    502,
+                    194,
+                    544
+                ],
+                "confidence": 0.1
+            },
+            {
+                "text": "42zo ",
+                "bounding_box": [
+                    147,
+                    501,
+                    190,
+                    532
+                ],
+                "confidence": 0.06
+            },
+            {
+                "text": "9010",
+                "bounding_box": [
+                    226,
+                    508,
+                    277,
+                    545
+                ],
+                "confidence": 0.99
+            }
+        ]
+    },
+    {
+        "page": 2,
+        "results": [
+            {
+                "text": "1",
+                "bounding_box": [
+                    96,
+                    169,
+                    121,
+                    242
+                ],
+                "confidence": 0.62
+            },
+            {
+                "text": "F",
+                "bounding_box": [
+                    79,
+                    241,
+                    99,
+                    291
+                ],
+                "confidence": 0.2
+            },
+            {
+                "text": "L",
+                "bounding_box": [
+                    88,
+                    360,
+                    112,
+                    420
+                ],
+                "confidence": 0.19
+            },
+            {
+                "text": "L",
+                "bounding_box": [
+                    137,
+                    397,
+                    162,
+                    494
+                ],
+                "confidence": 0.25
+            },
+            {
+                "text": "L",
+                "bounding_box": [
+                    200,
+                    422,
+                    220,
+                    487
+                ],
+                "confidence": 0.17
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    259,
+                    421,
+                    273,
+                    455
+                ],
+                "confidence": 0.21
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    71,
+                    166,
+                    95,
+                    234
+                ],
+                "confidence": 0.18
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    101,
+                    234,
+                    125,
+                    288
+                ],
+                "confidence": 0.36
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    115,
+                    358,
+                    143,
+                    502
+                ],
+                "confidence": 0.53
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    225,
+                    402,
+                    246,
+                    485
+                ],
+                "confidence": 0.39
+            },
+            {
+                "text": "L",
+                "bounding_box": [
+                    169,
+                    420,
+                    190,
+                    491
+                ],
+                "confidence": 0.25
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    97,
+                    427,
+                    119,
+                    498
+                ],
+                "confidence": 0.25
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "results": [
+            {
+                "text": "4mencan",
+                "bounding_box": [
+                    138,
+                    122,
+                    182,
+                    130
+                ],
+                "confidence": 0.52
+            },
+            {
+                "text": "Express Corporate; 378734493671000",
+                "bounding_box": [
+                    183,
+                    118,
+                    361,
+                    133
+                ],
+                "confidence": 0.83
+            },
+            {
+                "text": "AMemcan Express cordanllz",
+                "bounding_box": [
+                    138,
+                    154,
+                    268,
+                    162
+                ],
+                "confidence": 0.11
+            },
+            {
+                "text": "378734493671000",
+                "bounding_box": [
+                    268,
+                    150,
+                    360,
+                    164
+                ],
+                "confidence": 0.99
+            },
+            {
+                "text": "Dankort (PBS]: 5019717010103742",
+                "bounding_box": [
+                    137,
+                    183,
+                    301,
+                    197
+                ],
+                "confidence": 0.5
+            },
+            {
+                "text": "Switch/Solo (Paymentech): 6331101999990016",
+                "bounding_box": [
+                    135,
+                    217,
+                    360,
+                    229
+                ],
+                "confidence": 0.86
+            },
+            {
+                "text": "Sensitive",
+                "bounding_box": [
+                    93,
+                    437,
+                    183,
+                    457
+                ],
+                "confidence": 0.71
+            },
+            {
+                "text": "Private",
+                "bounding_box": [
+                    217,
+                    437,
+                    287,
+                    457
+                ],
+                "confidence": 0.47
+            },
+            {
+                "text": "Personal",
+                "bounding_box": [
+                    320,
+                    436,
+                    412,
+                    460
+                ],
+                "confidence": 1.0
+            },
+            {
+                "text": "data",
+                "bounding_box": [
+                    115,
+                    457,
+                    161,
+                    477
+                ],
+                "confidence": 1.0
+            },
+            {
+                "text": "data",
+                "bounding_box": [
+                    229,
+                    457,
+                    275,
+                    477
+                ],
+                "confidence": 1.0
+            },
+            {
+                "text": "data",
+                "bounding_box": [
+                    342,
+                    456,
+                    390,
+                    480
+                ],
+                "confidence": 1.0
+            },
+            {
+                "text": "Nadecyrtc",
+                "bounding_box": [
+                    93,
+                    485,
+                    181,
+                    499
+                ],
+                "confidence": 0.1
+            },
+            {
+                "text": "Defined and governed",
+                "bounding_box": [
+                    315,
+                    485,
+                    417,
+                    499
+                ],
+                "confidence": 0.73
+            },
+            {
+                "text": "MEMC UaauJu",
+                "bounding_box": [
+                    100,
+                    498,
+                    174,
+                    506
+                ],
+                "confidence": 0.01
+            },
+            {
+                "text": "Dv dald Oroiccuon",
+                "bounding_box": [
+                    324,
+                    498,
+                    406,
+                    506
+                ],
+                "confidence": 0.14
+            },
+            {
+                "text": "s",
+                "bounding_box": [
+                    120,
+                    508,
+                    162,
+                    516
+                ],
+                "confidence": 0.09
+            },
+            {
+                "text": "and toqulauion",
+                "bounding_box": [
+                    332,
+                    508,
+                    398,
+                    516
+                ],
+                "confidence": 0.12
+            }
+        ]
+    },
+    {
+        "page": 4,
+        "results": [
+            {
+                "text": "08",
+                "bounding_box": [
+                    376,
+                    154,
+                    406,
+                    182
+                ],
+                "confidence": 0.18
+            },
+            {
+                "text": "0",
+                "bounding_box": [
+                    212,
+                    460,
+                    240,
+                    486
+                ],
+                "confidence": 0.95
+            },
+            {
+                "text": "Tar",
+                "bounding_box": [
+                    364,
+                    91,
+                    444,
+                    158
+                ],
+                "confidence": 0.39
+            },
+            {
+                "text": "INDIA",
+                "bounding_box": [
+                    393,
+                    114,
+                    460,
+                    172
+                ],
+                "confidence": 0.5
+            },
+            {
+                "text": "AA",
+                "bounding_box": [
+                    302,
+                    141,
+                    371,
+                    200
+                ],
+                "confidence": 0.28
+            },
+            {
+                "text": "GOVT",
+                "bounding_box": [
+                    321,
+                    165,
+                    388,
+                    223
+                ],
+                "confidence": 0.8
+            },
+            {
+                "text": "fat",
+                "bounding_box": [
+                    172,
+                    227,
+                    252,
+                    289
+                ],
+                "confidence": 0.46
+            },
+            {
+                "text": "INCOME TAX DEPARIMENT",
+                "bounding_box": [
+                    105,
+                    248,
+                    267,
+                    375
+                ],
+                "confidence": 0.76
+            },
+            {
+                "text": "3114d7",
+                "bounding_box": [
+                    97,
+                    273,
+                    181,
+                    347
+                ],
+                "confidence": 0.24
+            },
+            {
+                "text": "~D MANIKANDAN",
+                "bounding_box": [
+                    126,
+                    297,
+                    237,
+                    385
+                ],
+                "confidence": 0.43
+            },
+            {
+                "text": "Duraisany",
+                "bounding_box": [
+                    146,
+                    343,
+                    232,
+                    413
+                ],
+                "confidence": 0.87
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    166,
+                    375,
+                    246,
+                    441
+                ],
+                "confidence": 0.98
+            },
+            {
+                "text": "BNZPM2S0IF",
+                "bounding_box": [
+                    183,
+                    388,
+                    279,
+                    466
+                ],
+                "confidence": 0.62
+            },
+            {
+                "text": "Mn",
+                "bounding_box": [
+                    261,
+                    411,
+                    313,
+                    449
+                ],
+                "confidence": 0.1
+            },
+            {
+                "text": "mu",
+                "bounding_box": [
+                    234,
+                    432,
+                    279,
+                    473
+                ],
+                "confidence": 0.39
+            },
+            {
+                "text": "5+9441",
+                "bounding_box": [
+                    221,
+                    480,
+                    262,
+                    514
+                ],
+                "confidence": 0.14
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "results": [
+            {
+                "text": "8",
+                "bounding_box": [
+                    187,
+                    281,
+                    209,
+                    301
+                ],
+                "confidence": 0.17
+            },
+            {
+                "text": "Op",
+                "bounding_box": [
+                    394,
+                    276,
+                    422,
+                    300
+                ],
+                "confidence": 0.8
+            },
+            {
+                "text": "'Blrcby",
+                "bounding_box": [
+                    201,
+                    89,
+                    276,
+                    154
+                ],
+                "confidence": 0.03
+            },
+            {
+                "text": "INCOME TAX DEPARIMENT",
+                "bounding_box": [
+                    181,
+                    103,
+                    314,
+                    217
+                ],
+                "confidence": 0.6
+            },
+            {
+                "text": "~D MAMIKANDAN",
+                "bounding_box": [
+                    176,
+                    125,
+                    268,
+                    204
+                ],
+                "confidence": 0.45
+            },
+            {
+                "text": "1",
+                "bounding_box": [
+                    264,
+                    135,
+                    327,
+                    200
+                ],
+                "confidence": 0.63
+            },
+            {
+                "text": "Duraisany",
+                "bounding_box": [
+                    161,
+                    150,
+                    230,
+                    211
+                ],
+                "confidence": 0.48
+            },
+            {
+                "text": "16,07/1986",
+                "bounding_box": [
+                    143,
+                    175,
+                    207,
+                    231
+                ],
+                "confidence": 0.52
+            },
+            {
+                "text": "BNZPM?sIF",
+                "bounding_box": [
+                    125,
+                    194,
+                    203,
+                    262
+                ],
+                "confidence": 0.23
+            },
+            {
+                "text": "4",
+                "bounding_box": [
+                    363,
+                    219,
+                    421,
+                    274
+                ],
+                "confidence": 0.33
+            },
+            {
+                "text": "(n,",
+                "bounding_box": [
+                    129,
+                    236,
+                    168,
+                    270
+                ],
+                "confidence": 0.17
+            },
+            {
+                "text": "GOVT",
+                "bounding_box": [
+                    349,
+                    240,
+                    405,
+                    289
+                ],
+                "confidence": 0.98
+            },
+            {
+                "text": "Tar",
+                "bounding_box": [
+                    409,
+                    258,
+                    476,
+                    316
+                ],
+                "confidence": 0.1
+            },
+            {
+                "text": "FINDIA",
+                "bounding_box": [
+                    404,
+                    282,
+                    461,
+                    337
+                ],
+                "confidence": 0.53
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "results": [
+            {
+                "text": "312*7",
+                "bounding_box": [
+                    89,
+                    133,
+                    159,
+                    149
+                ],
+                "confidence": 0.24
+            },
+            {
+                "text": "faT",
+                "bounding_box": [
+                    166,
+                    124,
+                    228,
+                    150
+                ],
+                "confidence": 0.65
+            },
+            {
+                "text": "TT",
+                "bounding_box": [
+                    295,
+                    129,
+                    345,
+                    149
+                ],
+                "confidence": 0.3
+            },
+            {
+                "text": "TTEFR",
+                "bounding_box": [
+                    357,
+                    133,
+                    417,
+                    149
+                ],
+                "confidence": 0.26
+            },
+            {
+                "text": "INCOME TAX DEPARTMENT",
+                "bounding_box": [
+                    81,
+                    154,
+                    227,
+                    173
+                ],
+                "confidence": 0.56
+            },
+            {
+                "text": "GOVT: OF INDIA",
+                "bounding_box": [
+                    297,
+                    153,
+                    417,
+                    173
+                ],
+                "confidence": 0.81
+            },
+            {
+                "text": "MAMIKANDAN",
+                "bounding_box": [
+                    103,
+                    177,
+                    187,
+                    191
+                ],
+                "confidence": 0.69
+            },
+            {
+                "text": "DurAiSANY",
+                "bounding_box": [
+                    91,
+                    207,
+                    163,
+                    221
+                ],
+                "confidence": 0.25
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    91,
+                    237,
+                    157,
+                    251
+                ],
+                "confidence": 0.94
+            },
+            {
+                "text": "Clumbe",
+                "bounding_box": [
+                    178,
+                    254,
+                    210,
+                    262
+                ],
+                "confidence": 0.01
+            },
+            {
+                "text": "BNZPMZSOIF",
+                "bounding_box": [
+                    91,
+                    263,
+                    173,
+                    277
+                ],
+                "confidence": 0.44
+            },
+            {
+                "text": "Anad",
+                "bounding_box": [
+                    155,
+                    289,
+                    207,
+                    305
+                ],
+                "confidence": 0.06
+            },
+            {
+                "text": "Sianaluse",
+                "bounding_box": [
+                    91,
+                    317,
+                    135,
+                    329
+                ],
+                "confidence": 0.09
+            },
+            {
+                "text": "(n",
+                "bounding_box": [
+                    118,
+                    291,
+                    153,
+                    308
+                ],
+                "confidence": 0.5
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "results": [
+            {
+                "text": "3112*7",
+                "bounding_box": [
+                    89,
+                    87,
+                    159,
+                    105
+                ],
+                "confidence": 0.11
+            },
+            {
+                "text": "feT",
+                "bounding_box": [
+                    166,
+                    82,
+                    228,
+                    106
+                ],
+                "confidence": 0.68
+            },
+            {
+                "text": "TT",
+                "bounding_box": [
+                    295,
+                    85,
+                    345,
+                    105
+                ],
+                "confidence": 0.35
+            },
+            {
+                "text": "TTEFR",
+                "bounding_box": [
+                    357,
+                    89,
+                    417,
+                    105
+                ],
+                "confidence": 0.12
+            },
+            {
+                "text": "INCOME TAX DEPARTMENT",
+                "bounding_box": [
+                    81,
+                    111,
+                    227,
+                    129
+                ],
+                "confidence": 0.72
+            },
+            {
+                "text": "GOVT: OF INDIA",
+                "bounding_box": [
+                    297,
+                    109,
+                    417,
+                    129
+                ],
+                "confidence": 0.72
+            },
+            {
+                "text": "D MANIKANDAN",
+                "bounding_box": [
+                    91,
+                    133,
+                    185,
+                    147
+                ],
+                "confidence": 0.68
+            },
+            {
+                "text": "DURAISANY",
+                "bounding_box": [
+                    91,
+                    163,
+                    163,
+                    177
+                ],
+                "confidence": 0.31
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    91,
+                    193,
+                    157,
+                    207
+                ],
+                "confidence": 0.7
+            },
+            {
+                "text": "Aauenhe",
+                "bounding_box": [
+                    178,
+                    210,
+                    214,
+                    216
+                ],
+                "confidence": 0.0
+            },
+            {
+                "text": "BNZPM2SOIF",
+                "bounding_box": [
+                    91,
+                    219,
+                    173,
+                    233
+                ],
+                "confidence": 0.41
+            },
+            {
+                "text": "mntana",
+                "bounding_box": [
+                    119,
+                    247,
+                    197,
+                    263
+                ],
+                "confidence": 0.16
+            },
+            {
+                "text": "sane",
+                "bounding_box": [
+                    92,
+                    274,
+                    134,
+                    282
+                ],
+                "confidence": 0.13
+            },
+            {
+                "text": "31*7",
+                "bounding_box": [
+                    89,
+                    323,
+                    159,
+                    341
+                ],
+                "confidence": 0.11
+            },
+            {
+                "text": "fanI",
+                "bounding_box": [
+                    166,
+                    316,
+                    228,
+                    340
+                ],
+                "confidence": 0.28
+            },
+            {
+                "text": "Ma",
+                "bounding_box": [
+                    295,
+                    321,
+                    345,
+                    341
+                ],
+                "confidence": 0.08
+            },
+            {
+                "text": "TTeF",
+                "bounding_box": [
+                    357,
+                    323,
+                    417,
+                    339
+                ],
+                "confidence": 0.21
+            },
+            {
+                "text": "INCOME TaX DEPARTMENT",
+                "bounding_box": [
+                    81,
+                    345,
+                    227,
+                    366
+                ],
+                "confidence": 0.39
+            },
+            {
+                "text": "GOVT OF INDIA",
+                "bounding_box": [
+                    297,
+                    345,
+                    417,
+                    365
+                ],
+                "confidence": 0.81
+            },
+            {
+                "text": "D MANIKANDAN",
+                "bounding_box": [
+                    91,
+                    369,
+                    187,
+                    383
+                ],
+                "confidence": 0.71
+            },
+            {
+                "text": "Duraisany",
+                "bounding_box": [
+                    91,
+                    399,
+                    163,
+                    413
+                ],
+                "confidence": 0.47
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    91,
+                    427,
+                    157,
+                    443
+                ],
+                "confidence": 0.8
+            },
+            {
+                "text": "BNZPM2SOIF",
+                "bounding_box": [
+                    91,
+                    455,
+                    173,
+                    469
+                ],
+                "confidence": 0.52
+            },
+            {
+                "text": "2",
+                "bounding_box": [
+                    97,
+                    479,
+                    115,
+                    501
+                ],
+                "confidence": 0.19
+            },
+            {
+                "text": "mntn",
+                "bounding_box": [
+                    119,
+                    483,
+                    185,
+                    499
+                ],
+                "confidence": 0.35
+            },
+            {
+                "text": "Sanaie",
+                "bounding_box": [
+                    92,
+                    510,
+                    134,
+                    518
+                ],
+                "confidence": 0.04
+            },
+            {
+                "text": "312*7",
+                "bounding_box": [
+                    89,
+                    559,
+                    159,
+                    575
+                ],
+                "confidence": 0.21
+            },
+            {
+                "text": "fanI",
+                "bounding_box": [
+                    166,
+                    552,
+                    228,
+                    576
+                ],
+                "confidence": 0.29
+            },
+            {
+                "text": "Ma",
+                "bounding_box": [
+                    295,
+                    557,
+                    345,
+                    577
+                ],
+                "confidence": 0.1
+            },
+            {
+                "text": "TeFr",
+                "bounding_box": [
+                    357,
+                    559,
+                    417,
+                    575
+                ],
+                "confidence": 0.38
+            },
+            {
+                "text": "INCOME TAX DEPARTMENT",
+                "bounding_box": [
+                    81,
+                    581,
+                    227,
+                    601
+                ],
+                "confidence": 0.73
+            },
+            {
+                "text": "GOVT OF INDIA",
+                "bounding_box": [
+                    297,
+                    581,
+                    417,
+                    601
+                ],
+                "confidence": 0.69
+            },
+            {
+                "text": "MANIKANDAN",
+                "bounding_box": [
+                    101,
+                    604,
+                    187,
+                    618
+                ],
+                "confidence": 0.77
+            },
+            {
+                "text": "Duraisany",
+                "bounding_box": [
+                    91,
+                    633,
+                    163,
+                    647
+                ],
+                "confidence": 0.47
+            },
+            {
+                "text": "16/07/1986",
+                "bounding_box": [
+                    91,
+                    663,
+                    157,
+                    677
+                ],
+                "confidence": 0.77
+            },
+            {
+                "text": "BNZPM?SOIF",
+                "bounding_box": [
+                    91,
+                    689,
+                    173,
+                    705
+                ],
+                "confidence": 0.78
+            },
+            {
+                "text": "Anar 7",
+                "bounding_box": [
+                    149,
+                    715,
+                    217,
+                    733
+                ],
+                "confidence": 0.03
+            },
+            {
+                "text": "somiue",
+                "bounding_box": [
+                    90,
+                    742,
+                    135,
+                    756
+                ],
+                "confidence": 0.05
+            },
+            {
+                "text": "(n",
+                "bounding_box": [
+                    118,
+                    717,
+                    153,
+                    734
+                ],
+                "confidence": 0.12
+            }
+        ]
+    }
+]
