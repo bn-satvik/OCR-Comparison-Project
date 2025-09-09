@@ -16,3 +16,8 @@ This repository contains Python scripts to run OCR (Optical Character Recognitio
 ## Requirements
 - Python 3.8+
 - Install dependencies for each project:
+
+## How to Run
+-cd to PaddleOCR / Tesseract OCR / EasyOCR / DocTr
+-pip3 install -r requirements.txt
+-python3 main.py
