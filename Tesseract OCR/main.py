@@ -1,63 +1,107 @@
+
+# --- Updated for batch evaluation ---
 import os
 import json
+import time
 import pytesseract
 from PIL import Image
-import fitz  # PyMuPDF
 
-# Config: 1 = image, 0 = PDF
-env_pdf_or_image = 1  
+def cer(s1, s2):
+    """Character Error Rate"""
+    import difflib
+    s1, s2 = s1.replace("\n", " "), s2.replace("\n", " ")
+    matcher = difflib.SequenceMatcher(None, s1, s2)
+    errors = sum([max(a2 - a1, b2 - b1) for (tag, a1, a2, b1, b2) in matcher.get_opcodes() if tag != 'equal'])
+    return errors / max(1, len(s2)) * 100
 
-# Paths
-input_path = "assets/image(1).png"  # Change to your file
-output_dir = "output"
-os.makedirs(output_dir, exist_ok=True)
+def wer(s1, s2):
+    """Word Error Rate"""
+    import difflib
+    w1, w2 = s1.split(), s2.split()
+    matcher = difflib.SequenceMatcher(None, w1, w2)
+    errors = sum([max(a2 - a1, b2 - b1) for (tag, a1, a2, b1, b2) in matcher.get_opcodes() if tag != 'equal'])
+    return errors / max(1, len(w2)) * 100
 
-def extract_text_with_boxes(image_path):
+def tesseract_to_text(image_path):
     img = Image.open(image_path)
-    data = pytesseract.image_to_data(img, output_type=pytesseract.Output.DICT)
+    text = pytesseract.image_to_string(img)
+    return text.strip()
 
+def get_image_size(image_path):
+    with Image.open(image_path) as img:
+        return img.size
+
+
+def process_subfolder(subfolder):
+    image_files = [f for f in os.listdir(subfolder) if f.endswith('.png')]
     results = []
-    for i in range(len(data['text'])):
-        text = data['text'][i].strip()
-        if text:
-            x1, y1 = data['left'][i], data['top'][i]
-            x2, y2 = x1 + data['width'][i], y1 + data['height'][i]
-            results.append({
-                "text": text,
-                "bounding_box": [x1, y1, x2, y2]
-            })
-    return results
+    print(f"\nProcessing folder: {subfolder}")
+    print(f"Found {len(image_files)} images in {subfolder}")
 
-if env_pdf_or_image == 1:
-    # Process image
-    print(f"Processing image: {input_path}")
-    results = extract_text_with_boxes(input_path)
-    output_file = os.path.join(output_dir, "result_image.json")
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4)
-    print(f"OCR complete. Results saved in {output_file}")
+    total_time = 0.0
+    total_cer = 0.0
+    total_wer = 0.0
+    total_height = 0
+    total_width = 0
+    count = 0
 
-elif env_pdf_or_image == 0:
-    # Process PDF
-    print(f"Processing PDF: {input_path}")
-    doc = fitz.open(input_path)
-    all_results = []
+    for img_file in image_files:
+        img_path = os.path.join(subfolder, img_file)
+        txt_file = img_file.replace('.png', '.txt')
+        txt_path = os.path.join(subfolder, txt_file)
+        if not os.path.exists(txt_path):
+            print(f"Skipping {img_file}: ground-truth {txt_file} not found.")
+            continue
 
-    for page_num in range(len(doc)):
-        pix = doc[page_num].get_pixmap()
-        img_path = os.path.join(output_dir, f"page_{page_num+1}.png")
-        pix.save(img_path)
+        gt_text = open(txt_path, encoding='utf-8').read().strip()
+        width, height = get_image_size(img_path)
 
-        page_results = extract_text_with_boxes(img_path)
-        all_results.append({
-            "page": page_num + 1,
-            "results": page_results
+        start = time.time()
+        ocr_text = tesseract_to_text(img_path)
+        elapsed = time.time() - start
+
+        cer_val = cer(ocr_text, gt_text)
+        wer_val = wer(ocr_text, gt_text)
+
+        results.append({
+            'image': img_file,
+            'inference_time': elapsed,
+            'cer': cer_val,
+            'wer': wer_val,
+            'height': height,
+            'width': width
         })
 
-    output_file = os.path.join(output_dir, "result_pdf.json")
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(all_results, f, indent=4)
-    print(f"OCR complete. Results saved in {output_file}")
+        total_time += elapsed
+        total_cer += cer_val
+        total_wer += wer_val
+        total_height += height
+        total_width += width
+        count += 1
+        print(f"{img_file}: time={elapsed:.3f}s, CER={cer_val:.2f}%, WER={wer_val:.2f}%")
 
-else:
-    print("Invalid value for env_pdf_or_image. Use 1 for image, 0 for PDF.")
+    if count == 0:
+        print("No images processed in folder.")
+        return
+
+    avg_time = total_time / count
+    avg_cer = total_cer / count
+    avg_wer = total_wer / count
+    avg_height = total_height / count
+    avg_width = total_width / count
+
+    print("\n| model       | average_inference_time | average_cer | average_wer | image_count | average_image_height | average_image_width |")
+    print("|:-----------|:----------------------|:------------|:------------|------------:|---------------------:|--------------------:|")
+    print(f"| Tesseract   | {avg_time:.4f}s               | {avg_cer:.2f}%      | {avg_wer:.2f}%      | {count:11d} | {avg_height:20.0f} | {avg_width:18.0f} |")
+
+def main():
+    assets_dir = "assets"
+    subfolders = [os.path.join(assets_dir, d) for d in os.listdir(assets_dir) if os.path.isdir(os.path.join(assets_dir, d))]
+    if not subfolders:
+        print("No subfolders found in assets.")
+        return
+    for subfolder in subfolders:
+        process_subfolder(subfolder)
+
+if __name__ == "__main__":
+    main()
